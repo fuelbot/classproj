@@ -1,0 +1,157 @@
+@font-face {
+	font-family: 'Merriweather', Arial, sans-serif;
+
+}
+
+@font-face {
+	font-family: 'Oswald', Arial, sans-serif;
+}
+
+@font-face {
+	font-family: 'Source Sans Pro', Arial, sans-serif;
+
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #000000;
+	text-align: justify;
+	width: 75%;
+}
+
+
+.container-1 {
+	height: 50px;
+	background-color: #000000;
+	border-bottom: 3px solid yellow;
+}
+
+
+.title {
+	font-family: 'Merriweather', Sans-serif;
+	color: yellow;
+	background-color: #000000;
+}
+
+ul {
+	float: right;
+	list-style-type: none;
+	margin: 3px 0px;
+	padding: 0;
+	overflow: hidden;
+	color: #FFFFFF;
+}
+
+li {
+	float: left;
+	
+}
+
+.bolder {
+	font-weight: bolder;
+}
+
+.banner {
+	background-color: #999999;
+	font-style: italic;
+	padding: 10px 0px;
+	font-weight: bolder;
+}
+
+
+.container-text {
+	font-family: 'Merriweather', Arial, Sans-serif;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 20px;
+}
+
+
+.container-2 {
+	background-image: url("../images/coworking.jpg");
+	background-position: cover;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	height: 60%;
+}
+
+.text-mover {
+	padding: 10px;
+}
+
+.taste {
+	text-decoration: line-through;
+	color: #666666;
+}
+
+
+
+.container-3 {
+	float: right;
+	background-color: rgba(255,255,255,0.7);
+	width: 35%;
+	height: 65%;
+	margin: 15px 15px;
+	padding: 10px 10px;
+}
+
+.meet {
+	font-weight: bolder;
+	font-size: 18px;
+
+}
+
+.button-1 {
+	font-family: 'Oswald', Arial, sans-serif;
+	text-align: center;
+	background-color: yellow;
+}
+
+.button {
+	font-family: 'Oswald', Arial, sans-serif;
+	text-align: center;
+	background-color: #999999;
+	width: 15%;
+	box-shadow: 0px 2px 2px #000000;
+
+}
+
+
+.container-4 {
+	background-color: #FFFFFF;
+	height: 40%;
+
+}
+
+.options {
+
+}
+
+.small {
+
+}
+
+.footer {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-size: 13px;
+}
+
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+
+
+
+<1
+
+merriweather = header fonts
+oswald = button font
+source sans pro = content / body font
+
