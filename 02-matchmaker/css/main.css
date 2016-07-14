@@ -12,6 +12,10 @@
 
 }
 
+html {
+	height: 100%;
+}
+
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #000000;
@@ -21,7 +25,7 @@ body {
 
 
 .container-1 {
-	height: 50px;
+	padding: 10px 0px;
 	background-color: #000000;
 	border-bottom: 3px solid yellow;
 }
@@ -106,7 +110,7 @@ li {
 }
 
 .button-center {
-	
+	text-align: center;
 }
 
 .button-1 {
@@ -114,6 +118,8 @@ li {
 	text-align: center;
 	background-color: yellow;
 	width: 40%;
+	padding: 5px 5px;
+	box-shadow: 0px 2px 2px #000000;
 
 }
 
@@ -124,6 +130,7 @@ li {
 	width: 40%;
 	box-shadow: 0px 2px 2px #000000;
 	margin: 0 auto;
+	padding: 5px 5px;
 
 }
 
@@ -131,17 +138,38 @@ li {
 .container-4 {
 	background-color: #FFFFFF;
 	margin: 0 auto;
-	height: 300px;
+	/*height: 185px;*/
+	padding: 10px 0px;
 
 }
 
-.options {
+.option-1 {
 	float: left;
-	width: 30%;
-	margin: 0px 20px;
-	padding: 0px 10px;
-
+	width: 33%;
+	margin: 0 auto;
+	padding: 20px;
+	box-sizing: border-box;
+	border-right: 1px solid #666666;
 }
+
+.option-2 {
+	float: left;
+	width: 33%;
+	margin: 0 auto;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.option-3 {
+	float: left;
+	width: 33%;
+	margin: 0 auto;
+	padding: 20px;
+	box-sizing: border-box;
+	border-left: 1px solid #666666;
+}
+
+
 
 .small {
 	font-size: 14px;
@@ -149,9 +177,12 @@ li {
 }
 
 .footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
 	background-color: #000000;
 	color: #FFFFFF;
-	font-size: 13px;
+	font-size: 14px;
 }
 
 
